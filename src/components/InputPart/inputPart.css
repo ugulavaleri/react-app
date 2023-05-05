@@ -1,0 +1,51 @@
+.inputContainer {
+    max-width: 1250px;
+    width: 100%;
+
+    margin: 200px auto 200px auto;
+    padding: 0 20px;
+
+    position: relative;
+}
+.inputContainer img {
+    width: 100%;
+    border-radius: 25px;
+}
+.inputBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 60px;
+}
+.inputBox p {
+    max-width: 380px;
+    font-size: calc(10px + 2vw);
+    font-weight: 800;
+    color: #fff;
+}
+.inputBox input {
+    width: 280px;
+    height: 60px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+.inputBox button {
+    width: 150px;
+    height: 60px;
+    border-radius: 12px;
+    border: none;
+    background-color: #274c5b;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 5px;
+    cursor: pointer;
+}

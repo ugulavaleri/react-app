@@ -1,0 +1,32 @@
+.middleContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 20px;
+
+    max-width: 1250px;
+    width: 100%;
+    margin: 120px auto 0 auto;
+    padding: 0 20px;
+}
+.productsImage {
+    max-width: 370px;
+    width: 100%;
+
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.productsImage:hover {
+    transform: scale(0.98, 0.98);
+}
+.productsName {
+    font-size: 17px;
+    font-weight: 800;
+    margin-top: 5px;
+    color: #274c5b;
+}
+.productsKind {
+    font-size: 14px;
+    color: #7eb693;
+}
